@@ -1,0 +1,266 @@
+.navbar-color {
+	color: #c778dd;
+}
+
+.navbar-custom {
+	background-color: #4b4453;
+}
+
+body {
+	background-color: #b0a8b9;
+	font-family: "Fira Code";
+	font-style: normal;
+}
+
+.clase-iconos {
+	width: 40px;
+	height: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.clase-iconos2 {
+	width: 80px;
+	height: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.navbar-letra {
+	font-size: 16px;
+}
+
+.size-img {
+	width: 95%;
+	height: 796%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 45px;
+}
+
+.linea {
+	border: 1px solid #000000;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.Form-Radio {
+	border-radius: 15px;
+}
+
+.btn-custom {
+	background-color: #6c6c6c;
+	color: white;
+	font-size: 20px;
+}
+
+.btn.btn-custom:hover {
+	background-color: #bdb8b8;
+}
+
+.fondo-img {
+	background-image: url(img/2.jpeg);
+	border-radius: 20px 20px 20px 20px;
+}
+
+.fondo-img2 {
+	height: 200px;
+}
+
+.letra-blanca {
+	color: white;
+}
+.muchoMargin {
+	margin-bottom: 25%;
+	padding-top: 9%;
+}
+
+.muhopadding {
+	padding-bottom: 9%;
+}
+
+.custom-class-centrar-general {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-custom {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.rectangulo-blanco {
+	background: #d9d9d9;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 23px;
+	width: 90%;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 356px) {
+	.custom-class-centrar {
+		text-align: center;
+	}
+	.rectangulo-gris {
+		background: #4b4453;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 61px;
+		width: 90%;
+	}
+	.Container-custom {
+		width: 70%;
+	}
+
+	.bacground-custom {
+		background-image: url(img/3.jpg);
+		border-radius: 20px 20px 20px 20px;
+		margin-top: 2%;
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	.tamañoNombre {
+		font-size: 20px;
+
+		color: white;
+	}
+
+	.tamañoNombrePeque {
+		font-size: 25px;
+
+		color: white;
+	}
+
+	.unPcoMargin {
+		margin-bottom: 12%;
+	}
+
+	.otroMargin {
+		margin-top: 5%;
+	}
+
+	.H1-Custom {
+		font-size: 80px;
+		margin-bottom: 13%;
+		color: white;
+	}
+
+	.H2-Custom {
+		font-size: 50px;
+		color: white;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.custom-class-izquierda {
+		text-align: left;
+	}
+
+	.custom-class-derecha {
+		text-align: right;
+	}
+	.Container-custom-tablet {
+		width: 70%;
+	}
+	.rectangulo-gris {
+		background: #4b4453;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 23px;
+		width: 90%;
+	}
+
+	.tamañoNombre {
+		font-size: 40px;
+
+		color: white;
+	}
+
+	.tamañoNombrePeque {
+		font-size: 45px;
+
+		color: white;
+	}
+
+	.unPcoMargin {
+		margin-bottom: 5%;
+	}
+
+	.H1-Custom {
+		font-size: 100px;
+		margin-bottom: 13%;
+		color: white;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.custom-class-Derecha-general {
+		display: flex;
+		justify-content: right;
+		align-items: right;
+	}
+
+	.tamañoNombre {
+		font-size: 50px;
+
+		color: white;
+	}
+
+	.tamañoNombrePeque {
+		font-size: 45px;
+
+		color: white;
+	}
+
+	.unPcoMargin {
+		margin-bottom: 12%;
+	}
+
+	.otroMargin {
+		margin-top: 5%;
+	}
+
+	.H1-Custom {
+		font-size: 100px;
+		margin-bottom: 13%;
+		color: white;
+	}
+
+	.fondo-img-escriorio {
+		background-image: url(img/2.jpeg);
+		border-radius: 20px 20px 20px 20px;
+		margin-top: 2%;
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	.Desaparecer-Escritorio {
+		display: none;
+	}
+
+	.margenEscritorio {
+		margin-left: 7%;
+	}
+	.margenEscritorio2 {
+		margin-left: 25%;
+	}
+}
+
+@media (min-width: 1800px) {
+	.final-footer {
+		position: absolute;
+		bottom: 0;
+		background-color: #b0a8b9;
+		width: 100%;
+	}
+}
+
+@media (min-width: 2500px) {
+	.final-footer2 {
+		position: absolute;
+		bottom: 0;
+		background-color: #b0a8b9;
+		width: 100%;
+	}
+}
